@@ -1,0 +1,22 @@
+{
+  "name": "webfonts-scraper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:sibsfinx/natailini.git",
+  "author": "Alexander Mescheryakov <sibsfinx@ya.ru>",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-node index.js",
+    "cleanup": "./cleanup"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "lodash": "^4.17.10",
+    "rimraf": "^2.6.2",
+    "website-scraper": "^3.3.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
